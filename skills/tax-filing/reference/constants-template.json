@@ -1,0 +1,25 @@
+{
+  "_instructions": "Copy to work/constants.json and fill EVERY value from an official source for the tax year (IRS Rev. Proc., IRS.gov, tax.virginia.gov). Put the source URL in the matching _source key. Do not fill from memory. Check for law changes enacted since last year (e.g. SALT cap, child tax credit, standard deduction, new deductions). Show the table to the user before computing.",
+  "year": null,
+  "status": "mfj",
+  "brackets": [[null, null]],
+  "brackets_source": "",
+  "standard_deduction": null,
+  "standard_deduction_source": "",
+  "qdcg": {"zero_top": null, "fifteen_top": null},
+  "qdcg_source": "",
+  "ctc": {"per_child": null, "phaseout_start": null},
+  "ctc_source": "",
+  "salt": {"cap": null, "floor": null, "phaseout_start": null, "phaseout_rate": null},
+  "salt_source": "",
+  "niit": {"threshold": null, "rate": 0.038},
+  "addl_medicare": {"threshold": null, "rate": 0.009},
+  "ss_wage_base": null,
+  "amt": {"exemption": null, "phaseout_start": null},
+  "virginia": {
+    "brackets": [[null, null]],
+    "standard_deduction": null,
+    "exemption": null,
+    "source": ""
+  }
+}
